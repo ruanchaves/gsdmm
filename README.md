@@ -21,6 +21,8 @@ python submission.py
 
 ## Future developments:
 
+- [ ] Clean up the code
+
 - [ ] Use the faster Rust implementation
 
 - [ ] Try Jonker-Volgenant algorithm for mapping the clusters
