@@ -10,7 +10,7 @@ Future developments:
 
 - [ ] Use the faster Rust implementation
 
-- [ ] Try the Jonker-Volgenant algorithm for mapping the clusters
+- [ ] Try Jonker-Volgenant algorithm for mapping the clusters
 
 - [ ] Hyperparameter tuning ( K, alpha, beta and iterations ).
 
