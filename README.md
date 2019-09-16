@@ -6,6 +6,10 @@ After training and finding the clusters, they were mapped into the original chal
 
 Bear in mind that I have not performed any parameter fine-tuning whatsoever; I'm just sticking to the defaults. Nevertheless, the model has achieved an accuracy of 67%.
 
+Recommended reading: 
+
+- [Short Text Topic Modeling](https://towardsdatascience.com/short-text-topic-modeling-70e50a57c883)
+
 Future developments:
 
 - [ ] Use the faster Rust implementation
@@ -13,6 +17,8 @@ Future developments:
 - [ ] Try Jonker-Volgenant algorithm for mapping the clusters
 
 - [ ] Hyperparameter tuning ( K, alpha, beta and iterations ).
+
+
 
 The original readme for the Python GSDMM repository follows below.
 
