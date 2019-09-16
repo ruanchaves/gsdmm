@@ -1,16 +1,23 @@
 # GSDMM - MercadoLibre Data Challenge
 
+## Description
+
 This repository runs the GSDMM algorithm on a small subset of the MercadoLibre Data Challenge of 2019.
 
 After training and finding the clusters, they were mapped into the original challenge categories ( [related SO question](https://stackoverflow.com/questions/55258457/find-mapping-that-translates-one-list-of-clusters-to-another-in-python/55258990) ).
 
 Bear in mind that I have not performed any parameter fine-tuning whatsoever; I'm just sticking to the defaults. Nevertheless, the model has achieved an accuracy of 67%.
 
-Recommended reading: 
+## Running
+
+` pip install -r requirements.txt `
+` python submission.py `
+
+## Recommended reading
 
 - [Short Text Topic Modeling](https://towardsdatascience.com/short-text-topic-modeling-70e50a57c883)
 
-Future developments:
+## Future developments:
 
 - [ ] Use the faster Rust implementation
 
