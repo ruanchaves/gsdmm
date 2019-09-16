@@ -1,3 +1,22 @@
+# GSDMM - MercadoLibre Data Challenge
+
+This repository runs the GSDMM algorithm on a small subset of the MercadoLibre Data Challenge of 2019.
+
+After training and finding the clusters, they were mapped into the original challenge categories ( [related SO question](https://stackoverflow.com/questions/55258457/find-mapping-that-translates-one-list-of-clusters-to-another-in-python/55258990) ).
+
+Bear in mind that I have not performed any parameter fine-tuning whatsoever; I'm just sticking to the defaults. Nevertheless, the model has achieved an accuracy of 67%.
+
+Future developments:
+
+- [ ] Use the faster Rust implementation
+
+- [ ] Try the Jonker-Volgenant algorithm for mapping the clusters
+
+- [ ] Hyperparameter tuning ( K, alpha, beta and iterations ).
+
+The original readme for the Python GSDMM repository follows below.
+
+
 # GSDMM: Short text clustering
 
 This project implements the Gibbs sampling algorithm for a Dirichlet Mixture Model of [Yin and Wang 2014](https://pdfs.semanticscholar.org/058a/d0815ce350f0e7538e00868c762be78fe5ef.pdf) for the 
