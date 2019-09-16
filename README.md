@@ -10,8 +10,10 @@ Bear in mind that I have not performed any parameter fine-tuning whatsoever; I'm
 
 ## Running
 
-` pip install -r requirements.txt `
-` python submission.py `
+``` 
+pip install -r requirements.txt
+python submission.py 
+```
 
 ## Recommended reading
 
